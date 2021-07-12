@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/chart1">Chart1</router-link> |
+      <router-link to="/chart2">Chart2</router-link> |
      </div>
 
      <div class="container">

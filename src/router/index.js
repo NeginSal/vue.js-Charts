@@ -10,6 +10,11 @@ const routes = [
     name: 'Chart1',
     component: () => import('../views/Chart1.vue')
   },
+  {
+    path: '/chart2',
+    name: 'Chart2',
+    component: () => import('../views/Chart2.vue')
+  },
 
 
 
