@@ -33,12 +33,7 @@ export default {
       }
     },
 };
-
-
-
 </script>
-
-
 
 <style>
 
