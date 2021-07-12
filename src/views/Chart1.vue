@@ -1,14 +1,13 @@
 <template>
   <div>
-       <div id="chart">
+    <div id="chart">
         <apexchart type="radialBar" height="350" :options="chartOptions" :series="series"></apexchart>
-      </div>
+    </div>
   </div>
 </template>
 
 
 <script>
-
 export default {
   data: function() {
       return {
@@ -22,21 +21,15 @@ export default {
             plotOptions: {
               radialBar: {
                 hollow: {
-                  size: '33%',
-                }
+                  size: '70%',
+                },
               },
             },
-            labels: ['Cricket'],
+            fill: {
+               colors: ['#000099' ]
+            },
+            labels: [''],
           },
-
-
-
-
-
-
-
-
-
       }
     },
 };
