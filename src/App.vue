@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/chart1">Chart1</router-link> |
       <router-link to="/chart2">Chart2</router-link> |
+      <router-link to="/chart3">Chart3</router-link>
      </div>
 
      <div class="container">
